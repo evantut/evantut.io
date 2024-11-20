@@ -55,7 +55,63 @@ footer{
     padding: 20px 0;
     margin-top: 30px;
 }
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
 
+.img {
+    width: 200px;
+}
+.left {
+    float: left;
+    margin-right: 10px;
+}
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.img-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.img-row img {
+    width: 200px;
+}
+
+
+.inline-img {
+    text-align: center;
+}
+.inline-img img {
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 15px;
+}
 
 
 
